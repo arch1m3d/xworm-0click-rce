@@ -3,8 +3,6 @@
 Four-bug chain against the XWorm C2 Panel. 0click RCE.
 Tested across v3.0 through v7.4, covering both XOR-era and AES-era protocol variants.
 
-Full writeup: Coming Soon
-
 ---
 
 A Python exploit that walks an unauthenticated TCP peer through four packets and ends up running arbitrary code inside the C2 panel process.
