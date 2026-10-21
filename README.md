@@ -14,6 +14,8 @@ The four bugs, in chain order:
 3. **Path traversal in `downloadedfile`** — the filter blocks `\` and `/` but not `..`. `Path.Combine` collapses the `..` to the panel root.
 4. **Lazy-loaded DLL hijack** — `FastColoredTextBox.dll` is only loaded when the VBCode form opens. Overwrite it on disk first, then trigger the form.
 
+![poc](poc.gif)
+
 ## Usage
 
 Build the payload DLL (Windows, requires .NET Framework SDK):
