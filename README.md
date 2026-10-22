@@ -1,4 +1,4 @@
-# XWorm C2 — Pre-Auth RCE (v3.0–v7.4)
+# XWorm C2 — Pre-Auth RCE (v3.0–v7.5)
 
 Four-bug chain against the XWorm C2 Panel. 0click RCE.
 Tested across v3.0 through v7.4, covering both XOR-era and AES-era protocol variants.
